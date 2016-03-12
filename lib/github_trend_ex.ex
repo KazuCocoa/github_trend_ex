@@ -1,0 +1,2 @@
+defmodule GithubTrendEx do
+end
