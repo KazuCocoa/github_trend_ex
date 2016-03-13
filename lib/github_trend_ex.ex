@@ -48,12 +48,13 @@ defmodule GithubTrendEx do
   @spec list(bitstring) :: integer | nil
   def list(html) do
     names = Floki.find(html, ".repo-list-name a")
-    descriptions = Floki.find(html, ".repo-list-description")
+    descriptions = Floki.find(html, "p.repo-list-description")
 
     Enum.zip(names, descriptions)
-    |> Enum.reduce([], fn  {{_, href, _}, {_, _, desc}}, acc ->
+    |> Enum.reduce([], fn  {{"a", href, _}, {"p", _, nested}}, acc ->
       {_tag, link} = List.first(href)
-      desc = List.first(desc)
+      desc = Enum.filter(nested, &(is_bitstring(&1)))
+             |> List.first
              |> String.strip
 
       List.flatten [acc | [%{name: link, url: @scheme <> @github_domain <> link, description: desc}]]
