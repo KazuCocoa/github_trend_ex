@@ -53,6 +53,13 @@ defmodule GithubTrendEx do
     Enum.zip(names, descriptions)
     |> Enum.reduce([], fn  {{"a", href, _}, {"p", _, nested}}, acc ->
       {_tag, link} = List.first(href)
+
+      # TODO: Get string from nested tags.
+      # e.g. Sometimes trending repository have emoji, url and so on which have a or img tags.
+      #  {"p", [{"class", "repo-list-description"}],
+      #   ["\n      The ",
+      #     {"a", [{"href", "http://FreeCodeCamp.com"}], ["http://FreeCodeCamp.com"]}, <= これを取得したい
+      #   " open source codebase and curriculum. Learn to code and help nonprofits.\n    "]},
       desc = Enum.filter(nested, &(is_bitstring(&1)))
              |> List.first
              |> String.strip
