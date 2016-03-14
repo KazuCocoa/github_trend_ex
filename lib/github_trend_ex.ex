@@ -17,7 +17,8 @@ defmodule GithubTrendEx do
   def trend(lang \\ "") do
     trending_url = trending_url lang
 
-    HTTPoison.get!(trending_url)
+    trending_url
+    |> HTTPoison.get!
     |> Map.get(:body)
   end
 
@@ -52,13 +53,8 @@ defmodule GithubTrendEx do
 
     Enum.zip(names, descriptions)
     |> Enum.reduce([], fn  {{"a", href, _}, {"p", _, nested}}, acc ->
-      {_tag, link} = List.first(href)
-
-      desc = nested
-             |> Enum.reduce("", fn tag, acc ->
-               acc <> " " <> get_text_from(tag)
-             end)
-             |> String.strip
+      {_tag, link} = List.first href
+      desc = Enum.map_join nested, " ", &(get_text_from(&1))
 
       List.flatten [acc | [%{name: link, url: @scheme <> @github_domain <> link, description: desc}]]
     end)
