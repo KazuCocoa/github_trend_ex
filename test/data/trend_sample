@@ -5,9 +5,9 @@
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-2d635ad8ba43f32e07aa1fd713d692eff9a2e78dcd63daa5b580c38b36df3fdb.css" media="all" rel="stylesheet" />
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-79614139b0ee6e0bd515d6289eb56d63846e3bcff3e4ea798402e75e670d10be.css" media="all" rel="stylesheet" />
-
-
-
+    
+    
+    
 
     <link as="script" href="https://assets-cdn.github.com/assets/frameworks-e677f2022a5d36e8f5ad35d0fcb01f83f1cdb613eda0449f533197693bcc6bda.js" rel="preload" />
     <link as="script" href="https://assets-cdn.github.com/assets/github-49c0de53df0e1f0dfaa632dcbe0daafc2222a8021741cedf015685977e77c100.js" rel="preload" />
@@ -15,8 +15,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=1020">
-
-
+    
+    
     <title>Trending  repositories on GitHub today · GitHub</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -61,9 +61,9 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-
+    
     <meta name="pjax-timeout" content="1000">
-
+    
 
     <meta name="msapplication-TileImage" content="/windows-tile.png">
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -73,7 +73,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="771F9440:4A24:3754240:56E4D905" name="octolytics-dimension-request_id" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="A7DCEA6D:2C18:5F727A9:56E68F00" name="octolytics-dimension-request_id" />
 
 
 
@@ -86,15 +86,15 @@
     <meta name="user-login" content="">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="MzlhZDBlN2YxNzViMTQ0ZjMyYTM3ZjM5Mjk1ZmNiYTMzODUxNDVhZDc5ZTJlYzZmYzVhZmM4MGRiNjA2MDk1MHx7InJlbW90ZV9hZGRyZXNzIjoiMTE5LjMxLjE0OC42NCIsInJlcXVlc3RfaWQiOiI3NzFGOTQ0MDo0QTI0OjM3NTQyNDA6NTZFNEQ5MDUifQ==">
+      <meta name="js-proxy-site-detection-payload" content="OGE4NjI4Y2I4ZWYzYTliMzZlZGE5ZjQ1MDM0ZmE5NzNhZjc5MDk1OTcyYjc0ZGRjMzgyNTY1MjgyMTdhODNiYXx7InJlbW90ZV9hZGRyZXNzIjoiMTY3LjIyMC4yMzQuMTA5IiwicmVxdWVzdF9pZCI6IkE3RENFQTZEOjJDMTg6NUY3MjdBOTo1NkU2OEYwMCJ9">
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
-    <meta content="5f71cdbfe1fa21426e7e1749f113aff5554e4b02" name="form-nonce" />
+    <meta content="8fc48b19d97d97c00a52b7bd4896ea8f153d1b10" name="form-nonce" />
 
     <meta http-equiv="x-pjax-version" content="84b73df4cd31dd50aab58ec7e7486f7d">
-
+    
 
       <meta name="description" content="GitHub is where people build software. More than 12 million people use GitHub to discover, fork, and contribute to over 31 million projects.">
 
@@ -105,13 +105,13 @@
   <body class="logged_out   env-production">
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
 
+    
+    
+    
 
 
 
-
-
-
-
+      
       <div class="header header-logged-out" role="banner">
   <div class="container clearfix">
 
@@ -171,7 +171,7 @@
     <div role="main" class="main-content">
 
       <div id="js-pjax-container" class="context-loader-container" data-pjax-container>
-
+        
 <div class="pagehead explore-head">
   <div class="container">
     <nav class="pagehead-nav" role="navigation" data-pjax>
@@ -271,9 +271,9 @@
 
       &#8226;
 
-    1,430 stars today
+    843 stars today
 
-
+    
       &#8226;
         Built by
         <a href="/Rochester-NRT/AlphaGo/graphs/contributors">
@@ -286,9 +286,9 @@
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-Serious-Engine">
+              <li class="repo-list-item" id="pa-Collections-C">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2FCroteam-official%2FSerious-Engine"
+      <a href="/login?return_to=%2Fsrdja%2FCollections-C"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -299,31 +299,73 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/Croteam-official/Serious-Engine">
-      <span class="prefix">Croteam-official</span>
+    <a href="/srdja/Collections-C">
+      <span class="prefix">srdja</span>
       <span class="slash">/</span>
-      Serious-Engine
+      Collections-C
 </a>  </h3>
 
     <p class="repo-list-description">
-      An open source version of a game engine developed by Croteam for the classic Serious Sam games.
+      A library of generic data structures.
     </p>
 
   <p class="repo-list-meta">
-    C++
+    C
 
       &#8226;
 
-    456 stars today
+    461 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/Croteam-official/Serious-Engine/graphs/contributors">
-            <img alt="@SLAwww" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/17743522?v=3&amp;s=40" title="SLAwww" width="20" />
-            <img alt="@Ragora" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/4891495?v=3&amp;s=40" title="Ragora" width="20" />
-            <img alt="@aboyett" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/420132?v=3&amp;s=40" title="aboyett" width="20" />
-            <img alt="@mattl" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/33296?v=3&amp;s=40" title="mattl" width="20" />
+        <a href="/srdja/Collections-C/graphs/contributors">
+            <img alt="@srdja" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1875137?v=3&amp;s=40" title="srdja" width="20" />
+            <img alt="@AdamCanady" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/2141945?v=3&amp;s=40" title="AdamCanady" width="20" />
+        </a>
+  </p>
+</li>
+
+              <li class="repo-list-item" id="pa-nerd-fonts">
+  <div class="repo-list-stats">
+      <a href="/login?return_to=%2Fryanoasis%2Fnerd-fonts"
+    class="btn btn-sm  tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+    Star
+  </a>
+
+
+  </div>
+
+  <h3 class="repo-list-name">
+    <a href="/ryanoasis/nerd-fonts">
+      <span class="prefix">ryanoasis</span>
+      <span class="slash">/</span>
+      nerd-fonts
+</a>  </h3>
+
+    <p class="repo-list-description">
+      
+<img class="emoji" title=":abcd:" alt=":abcd:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f521.png" height="20" width="20" align="absmiddle"> Collection of over 20 patched fonts (over 2,000 variations) &amp; FontForge font patcher python script for Powerline, Font Awesome, Octicons, Devicons, and Vim Devicons. Includes: Droid Sans, Meslo, Source Code, AnonymousPro, Hack, ProFont, Inconsolata, and many more
+    </p>
+
+  <p class="repo-list-meta">
+    Python
+
+      &#8226;
+
+    396 stars today
+
+    
+      &#8226;
+        Built by
+        <a href="/ryanoasis/nerd-fonts/graphs/contributors">
+            <img alt="@ryanoasis" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/8083459?v=3&amp;s=40" title="ryanoasis" width="20" />
+            <img alt="@blueyed" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/9766?v=3&amp;s=40" title="blueyed" width="20" />
+            <img alt="@pointlessone" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/7405?v=3&amp;s=40" title="pointlessone" width="20" />
+            <img alt="@her" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/10278096?v=3&amp;s=40" title="her" width="20" />
+            <img alt="@shaief" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/899702?v=3&amp;s=40" title="shaief" width="20" />
         </a>
   </p>
 </li>
@@ -356,98 +398,14 @@
 
       &#8226;
 
-    454 stars today
+    334 stars today
 
-
+    
       &#8226;
         Built by
         <a href="/alexjc/neural-doodle/graphs/contributors">
             <img alt="@alexjc" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/445208?v=3&amp;s=40" title="alexjc" width="20" />
-        </a>
-  </p>
-</li>
-
-              <li class="repo-list-item" id="pa-jo">
-  <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fjpmens%2Fjo"
-    class="btn btn-sm  tooltipped tooltipped-n"
-    aria-label="You must be signed in to star a repository" rel="nofollow">
-    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
-    Star
-  </a>
-
-
-  </div>
-
-  <h3 class="repo-list-name">
-    <a href="/jpmens/jo">
-      <span class="prefix">jpmens</span>
-      <span class="slash">/</span>
-      jo
-</a>  </h3>
-
-    <p class="repo-list-description">
-      JSON output from a shell
-    </p>
-
-  <p class="repo-list-meta">
-    C
-
-      &#8226;
-
-    392 stars today
-
-
-      &#8226;
-        Built by
-        <a href="/jpmens/jo/graphs/contributors">
-            <img alt="@jpmens" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/60706?v=3&amp;s=40" title="jpmens" width="20" />
-            <img alt="@stevecheckoway" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1239089?v=3&amp;s=40" title="stevecheckoway" width="20" />
-            <img alt="@fcambus" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/825456?v=3&amp;s=40" title="fcambus" width="20" />
-            <img alt="@mikemcquaid" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/125011?v=3&amp;s=40" title="mikemcquaid" width="20" />
-            <img alt="@agboom" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1269113?v=3&amp;s=40" title="agboom" width="20" />
-        </a>
-  </p>
-</li>
-
-              <li class="repo-list-item" id="pa-myhtml">
-  <div class="repo-list-stats">
-      <a href="/login?return_to=%2Flexborisov%2Fmyhtml"
-    class="btn btn-sm  tooltipped tooltipped-n"
-    aria-label="You must be signed in to star a repository" rel="nofollow">
-    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
-    Star
-  </a>
-
-
-  </div>
-
-  <h3 class="repo-list-name">
-    <a href="/lexborisov/myhtml">
-      <span class="prefix">lexborisov</span>
-      <span class="slash">/</span>
-      myhtml
-</a>  </h3>
-
-    <p class="repo-list-description">
-      Fast C/C++ HTML 5 Parser. Using threads.
-    </p>
-
-  <p class="repo-list-meta">
-    C
-
-      &#8226;
-
-    287 stars today
-
-
-      &#8226;
-        Built by
-        <a href="/lexborisov/myhtml/graphs/contributors">
-            <img alt="@lexborisov" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/4179845?v=3&amp;s=40" title="lexborisov" width="20" />
-            <img alt="@warfish" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/622657?v=3&amp;s=40" title="warfish" width="20" />
-            <img alt="@f2404" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/14939413?v=3&amp;s=40" title="f2404" width="20" />
-            <img alt="@justanotheranonymoususer" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/5781692?v=3&amp;s=40" title="justanotheranonymoususer" width="20" />
+            <img alt="@jwinder1" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/5032335?v=3&amp;s=40" title="jwinder1" width="20" />
         </a>
   </p>
 </li>
@@ -480,9 +438,9 @@
 
       &#8226;
 
-    268 stars today
+    282 stars today
 
-
+    
       &#8226;
         Built by
         <a href="/FreeCodeCamp/FreeCodeCamp/graphs/contributors">
@@ -495,9 +453,9 @@
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-ink">
+              <li class="repo-list-item" id="pa-Serious-Engine">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Finkle%2Fink"
+      <a href="/login?return_to=%2FCroteam-official%2FSerious-Engine"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -508,31 +466,32 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/inkle/ink">
-      <span class="prefix">inkle</span>
+    <a href="/Croteam-official/Serious-Engine">
+      <span class="prefix">Croteam-official</span>
       <span class="slash">/</span>
-      ink
+      Serious-Engine
 </a>  </h3>
 
     <p class="repo-list-description">
-      inkle's open source scripting language for writing interactive narrative.
+      An open source version of a game engine developed by Croteam for the classic Serious Sam games.
     </p>
 
   <p class="repo-list-meta">
-    C#
+    C++
 
       &#8226;
 
-    225 stars today
+    248 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/inkle/ink/graphs/contributors">
-            <img alt="@joethephish" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/858967?v=3&amp;s=40" title="joethephish" width="20" />
-            <img alt="@tomkail" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1252816?v=3&amp;s=40" title="tomkail" width="20" />
-            <img alt="@octplane" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/22177?v=3&amp;s=40" title="octplane" width="20" />
-            <img alt="@TheIronBorn" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/7707250?v=3&amp;s=40" title="TheIronBorn" width="20" />
+        <a href="/Croteam-official/Serious-Engine/graphs/contributors">
+            <img alt="@SLAwww" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/17743522?v=3&amp;s=40" title="SLAwww" width="20" />
+            <img alt="@Ragora" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/4891495?v=3&amp;s=40" title="Ragora" width="20" />
+            <img alt="@mattl" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/33296?v=3&amp;s=40" title="mattl" width="20" />
+            <img alt="@aboyett" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/420132?v=3&amp;s=40" title="aboyett" width="20" />
+            <img alt="@megaserg" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1047261?v=3&amp;s=40" title="megaserg" width="20" />
         </a>
   </p>
 </li>
@@ -557,7 +516,7 @@
 </a>  </h3>
 
     <p class="repo-list-description">
-      JavaScript concepts with code!
+      JavaScript concepts with code! 
     </p>
 
   <p class="repo-list-meta">
@@ -565,9 +524,9 @@
 
       &#8226;
 
-    213 stars today
+    209 stars today
 
-
+    
       &#8226;
         Built by
         <a href="/vasanthk/js-bits/graphs/contributors">
@@ -575,14 +534,14 @@
             <img alt="@annamalai-saro" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/5235065?v=3&amp;s=40" title="annamalai-saro" width="20" />
             <img alt="@zzarcon" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1194982?v=3&amp;s=40" title="zzarcon" width="20" />
             <img alt="@k-yak" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/2871780?v=3&amp;s=40" title="k-yak" width="20" />
-            <img alt="@pakastin" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/1475902?v=3&amp;s=40" title="pakastin" width="20" />
+            <img alt="@herbae" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/6299880?v=3&amp;s=40" title="herbae" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-nerd-fonts">
+              <li class="repo-list-item" id="pa-jo">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fryanoasis%2Fnerd-fonts"
+      <a href="/login?return_to=%2Fjpmens%2Fjo"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -593,75 +552,32 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/ryanoasis/nerd-fonts">
-      <span class="prefix">ryanoasis</span>
+    <a href="/jpmens/jo">
+      <span class="prefix">jpmens</span>
       <span class="slash">/</span>
-      nerd-fonts
+      jo
 </a>  </h3>
 
     <p class="repo-list-description">
-
-<img class="emoji" title=":abcd:" alt=":abcd:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f521.png" height="20" width="20" align="absmiddle"> Collection of over 20 patched fonts (over 2,000 variations) &amp; FontForge font patcher python script for Powerline, Font Awesome, Octicons, Devicons, and Vim Devicons. Includes: Droid Sans, Meslo, Source Code, AnonymousPro, Hack, ProFont, Inconsolata, and many more
+      JSON output from a shell
     </p>
 
   <p class="repo-list-meta">
-    Python
+    C
 
       &#8226;
 
-    217 stars today
+    197 stars today
 
-
-      &#8226;
-        Built by
-        <a href="/ryanoasis/nerd-fonts/graphs/contributors">
-            <img alt="@ryanoasis" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/8083459?v=3&amp;s=40" title="ryanoasis" width="20" />
-            <img alt="@blueyed" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/9766?v=3&amp;s=40" title="blueyed" width="20" />
-            <img alt="@pointlessone" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/7405?v=3&amp;s=40" title="pointlessone" width="20" />
-            <img alt="@her" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/10278096?v=3&amp;s=40" title="her" width="20" />
-            <img alt="@shaief" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/899702?v=3&amp;s=40" title="shaief" width="20" />
-        </a>
-  </p>
-</li>
-
-              <li class="repo-list-item" id="pa-awesome-chrome-devtools">
-  <div class="repo-list-stats">
-      <a href="/login?return_to=%2FChromeDevTools%2Fawesome-chrome-devtools"
-    class="btn btn-sm  tooltipped tooltipped-n"
-    aria-label="You must be signed in to star a repository" rel="nofollow">
-    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
-    Star
-  </a>
-
-
-  </div>
-
-  <h3 class="repo-list-name">
-    <a href="/ChromeDevTools/awesome-chrome-devtools">
-      <span class="prefix">ChromeDevTools</span>
-      <span class="slash">/</span>
-      awesome-chrome-devtools
-</a>  </h3>
-
-    <p class="repo-list-description">
-      Awesome tooling and resources in the Chrome DevTools ecosystem
-    </p>
-
-  <p class="repo-list-meta">
-
-
-
-    198 stars today
-
-
+    
       &#8226;
         Built by
-        <a href="/ChromeDevTools/awesome-chrome-devtools/graphs/contributors">
-            <img alt="@paulirish" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/39191?v=3&amp;s=40" title="paulirish" width="20" />
-            <img alt="@Garbee" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/868301?v=3&amp;s=40" title="Garbee" width="20" />
-            <img alt="@samccone" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/883126?v=3&amp;s=40" title="samccone" width="20" />
-            <img alt="@arnoldstoba" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/8195352?v=3&amp;s=40" title="arnoldstoba" width="20" />
-            <img alt="@derimagia" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/999489?v=3&amp;s=40" title="derimagia" width="20" />
+        <a href="/jpmens/jo/graphs/contributors">
+            <img alt="@jpmens" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/60706?v=3&amp;s=40" title="jpmens" width="20" />
+            <img alt="@stevecheckoway" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1239089?v=3&amp;s=40" title="stevecheckoway" width="20" />
+            <img alt="@fcambus" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/825456?v=3&amp;s=40" title="fcambus" width="20" />
+            <img alt="@duggan" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/143117?v=3&amp;s=40" title="duggan" width="20" />
+            <img alt="@mikemcquaid" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/125011?v=3&amp;s=40" title="mikemcquaid" width="20" />
         </a>
   </p>
 </li>
@@ -694,22 +610,23 @@
 
       &#8226;
 
-    176 stars today
+    186 stars today
 
-
+    
       &#8226;
         Built by
         <a href="/kazzkiq/balloon.css/graphs/contributors">
             <img alt="@kazzkiq" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/1953194?v=3&amp;s=40" title="kazzkiq" width="20" />
             <img alt="@marcobiedermann" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/5244986?v=3&amp;s=40" title="marcobiedermann" width="20" />
             <img alt="@davesnx" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/3763599?v=3&amp;s=40" title="davesnx" width="20" />
+            <img alt="@ed1nh0" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/1084257?v=3&amp;s=40" title="ed1nh0" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-javascript">
+              <li class="repo-list-item" id="pa-pseudo">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fairbnb%2Fjavascript"
+      <a href="/login?return_to=%2Falehander42%2Fpseudo"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -720,14 +637,56 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/airbnb/javascript">
-      <span class="prefix">airbnb</span>
+    <a href="/alehander42/pseudo">
+      <span class="prefix">alehander42</span>
       <span class="slash">/</span>
-      javascript
+      pseudo
 </a>  </h3>
 
     <p class="repo-list-description">
-      JavaScript Style Guide
+      a framework for idiomatic code generation <img class="emoji" title=":alien:" alt=":alien:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f47d.png" height="20" width="20" align="absmiddle">
+
+    </p>
+
+  <p class="repo-list-meta">
+    Python
+
+      &#8226;
+
+    175 stars today
+
+    
+      &#8226;
+        Built by
+        <a href="/alehander42/pseudo/graphs/contributors">
+            <img alt="@alehander42" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/830715?v=3&amp;s=40" title="alehander42" width="20" />
+            <img alt="@bfontaine" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1334295?v=3&amp;s=40" title="bfontaine" width="20" />
+            <img alt="@gitter-badger" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/8518239?v=3&amp;s=40" title="gitter-badger" width="20" />
+        </a>
+  </p>
+</li>
+
+              <li class="repo-list-item" id="pa-antSword">
+  <div class="repo-list-stats">
+      <a href="/login?return_to=%2Fantoor%2FantSword"
+    class="btn btn-sm  tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+    Star
+  </a>
+
+
+  </div>
+
+  <h3 class="repo-list-name">
+    <a href="/antoor/antSword">
+      <span class="prefix">antoor</span>
+      <span class="slash">/</span>
+      antSword
+</a>  </h3>
+
+    <p class="repo-list-description">
+      中国蚁剑是一款跨平台的开源网站管理工具
     </p>
 
   <p class="repo-list-meta">
@@ -737,22 +696,18 @@
 
     143 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/airbnb/javascript/graphs/contributors">
-            <img alt="@hshoff" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/339208?v=3&amp;s=40" title="hshoff" width="20" />
-            <img alt="@ljharb" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/45469?v=3&amp;s=40" title="ljharb" width="20" />
-            <img alt="@justjake" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/296279?v=3&amp;s=40" title="justjake" width="20" />
-            <img alt="@goatslacker" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/10632?v=3&amp;s=40" title="goatslacker" width="20" />
-            <img alt="@tomekwi" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/4624660?v=3&amp;s=40" title="tomekwi" width="20" />
+        <a href="/antoor/antSword/graphs/contributors">
+            <img alt="@antoor" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/13709206?v=3&amp;s=40" title="antoor" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-tcpkali">
+              <li class="repo-list-item" id="pa-GifHub">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fmachinezone%2Ftcpkali"
+      <a href="/login?return_to=%2FDrewML%2FGifHub"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -763,38 +718,35 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/machinezone/tcpkali">
-      <span class="prefix">machinezone</span>
+    <a href="/DrewML/GifHub">
+      <span class="prefix">DrewML</span>
       <span class="slash">/</span>
-      tcpkali
+      GifHub
 </a>  </h3>
 
     <p class="repo-list-description">
-      Fast multi-core TCP and WebSockets load generator.
+      Quickly insert GIFs in GitHub comments
     </p>
 
   <p class="repo-list-meta">
-    C
+    JavaScript
 
       &#8226;
 
-    145 stars today
+    172 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/machinezone/tcpkali/graphs/contributors">
-            <img alt="@vlm" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/145781?v=3&amp;s=40" title="vlm" width="20" />
-            <img alt="@alvelcom" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/628690?v=3&amp;s=40" title="alvelcom" width="20" />
-            <img alt="@bpuzon" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/283370?v=3&amp;s=40" title="bpuzon" width="20" />
-            <img alt="@doubleyou" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/217284?v=3&amp;s=40" title="doubleyou" width="20" />
+        <a href="/DrewML/GifHub/graphs/contributors">
+            <img alt="@DrewML" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/5233399?v=3&amp;s=40" title="DrewML" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-awesome-selfhosted">
+              <li class="repo-list-item" id="pa-statinamic">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2FKickball%2Fawesome-selfhosted"
+      <a href="/login?return_to=%2FMoOx%2Fstatinamic"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -805,39 +757,41 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/Kickball/awesome-selfhosted">
-      <span class="prefix">Kickball</span>
+    <a href="/MoOx/statinamic">
+      <span class="prefix">MoOx</span>
       <span class="slash">/</span>
-      awesome-selfhosted
+      statinamic
 </a>  </h3>
 
     <p class="repo-list-description">
-      This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+      
+<img class="emoji" title=":scream:" alt=":scream:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f631.png" height="20" width="20" align="absmiddle"> Modern static website generator to create dynamic websites using React components <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2728.png" height="20" width="20" align="absmiddle">
+
     </p>
 
   <p class="repo-list-meta">
-    Makefile
+    JavaScript
 
       &#8226;
 
-    144 stars today
+    173 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/Kickball/awesome-selfhosted/graphs/contributors">
-            <img alt="@nodiscc" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/3950390?v=3&amp;s=40" title="nodiscc" width="20" />
-            <img alt="@Kickball" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/2252004?v=3&amp;s=40" title="Kickball" width="20" />
-            <img alt="@AndyR207" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/6735115?v=3&amp;s=40" title="AndyR207" width="20" />
-            <img alt="@Kovah" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1816101?v=3&amp;s=40" title="Kovah" width="20" />
-            <img alt="@jungle-boogie" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1111743?v=3&amp;s=40" title="jungle-boogie" width="20" />
+        <a href="/MoOx/statinamic/graphs/contributors">
+            <img alt="@MoOx" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/157534?v=3&amp;s=40" title="MoOx" width="20" />
+            <img alt="@thangngoc89" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/3049054?v=3&amp;s=40" title="thangngoc89" width="20" />
+            <img alt="@mxstbr" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/7525670?v=3&amp;s=40" title="mxstbr" width="20" />
+            <img alt="@greenkeeperio-bot" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/14790466?v=3&amp;s=40" title="greenkeeperio-bot" width="20" />
+            <img alt="@skinnyfoetusboy" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/5133452?v=3&amp;s=40" title="skinnyfoetusboy" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-tinyrenderer">
+              <li class="repo-list-item" id="pa-6.006-2015-notebooks">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fssloy%2Ftinyrenderer"
+      <a href="/login?return_to=%2Fnivwusquorum%2F6.006-2015-notebooks"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -848,30 +802,27 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/ssloy/tinyrenderer">
-      <span class="prefix">ssloy</span>
+    <a href="/nivwusquorum/6.006-2015-notebooks">
+      <span class="prefix">nivwusquorum</span>
       <span class="slash">/</span>
-      tinyrenderer
+      6.006-2015-notebooks
 </a>  </h3>
 
-    <p class="repo-list-description">
-      Support c++ code for a short computer graphics course
-    </p>
 
   <p class="repo-list-meta">
-    C++
+    Jupyter Notebook
 
       &#8226;
 
-    136 stars today
+    156 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/ssloy/tinyrenderer/graphs/contributors">
-            <img alt="@ssloy" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1029298?v=3&amp;s=40" title="ssloy" width="20" />
-            <img alt="@BG4444" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/9161739?v=3&amp;s=40" title="BG4444" width="20" />
-            <img alt="@dmedov" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1370199?v=3&amp;s=40" title="dmedov" width="20" />
+        <a href="/nivwusquorum/6.006-2015-notebooks/graphs/contributors">
+            <img alt="@nivwusquorum" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1537435?v=3&amp;s=40" title="nivwusquorum" width="20" />
+            <img alt="@aallfredo" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/1373694?v=3&amp;s=40" title="aallfredo" width="20" />
+            <img alt="@zining01" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/15007763?v=3&amp;s=40" title="zining01" width="20" />
         </a>
   </p>
 </li>
@@ -904,9 +855,9 @@
 
       &#8226;
 
-    115 stars today
+    144 stars today
 
-
+    
       &#8226;
         Built by
         <a href="/Ramotion/navigation-stack/graphs/contributors">
@@ -916,9 +867,9 @@
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-quiet-js">
+              <li class="repo-list-item" id="pa-tinyrenderer">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fbrian-armstrong%2Fquiet-js"
+      <a href="/login?return_to=%2Fssloy%2Ftinyrenderer"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -929,14 +880,55 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/brian-armstrong/quiet-js">
-      <span class="prefix">brian-armstrong</span>
+    <a href="/ssloy/tinyrenderer">
+      <span class="prefix">ssloy</span>
       <span class="slash">/</span>
-      quiet-js
+      tinyrenderer
 </a>  </h3>
 
     <p class="repo-list-description">
-      Transmit data at 44.1khz using Web Audio -- Javascript binding for libquiet
+      Support c++ code for a short computer graphics course
+    </p>
+
+  <p class="repo-list-meta">
+    C++
+
+      &#8226;
+
+    128 stars today
+
+    
+      &#8226;
+        Built by
+        <a href="/ssloy/tinyrenderer/graphs/contributors">
+            <img alt="@ssloy" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1029298?v=3&amp;s=40" title="ssloy" width="20" />
+            <img alt="@BG4444" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/9161739?v=3&amp;s=40" title="BG4444" width="20" />
+            <img alt="@dmedov" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1370199?v=3&amp;s=40" title="dmedov" width="20" />
+        </a>
+  </p>
+</li>
+
+              <li class="repo-list-item" id="pa-javascript">
+  <div class="repo-list-stats">
+      <a href="/login?return_to=%2Fairbnb%2Fjavascript"
+    class="btn btn-sm  tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+    Star
+  </a>
+
+
+  </div>
+
+  <h3 class="repo-list-name">
+    <a href="/airbnb/javascript">
+      <span class="prefix">airbnb</span>
+      <span class="slash">/</span>
+      javascript
+</a>  </h3>
+
+    <p class="repo-list-description">
+      JavaScript Style Guide
     </p>
 
   <p class="repo-list-meta">
@@ -944,13 +936,17 @@
 
       &#8226;
 
-    114 stars today
+    122 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/brian-armstrong/quiet-js/graphs/contributors">
-            <img alt="@brian-armstrong" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/15702338?v=3&amp;s=40" title="brian-armstrong" width="20" />
+        <a href="/airbnb/javascript/graphs/contributors">
+            <img alt="@hshoff" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/339208?v=3&amp;s=40" title="hshoff" width="20" />
+            <img alt="@ljharb" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/45469?v=3&amp;s=40" title="ljharb" width="20" />
+            <img alt="@justjake" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/296279?v=3&amp;s=40" title="justjake" width="20" />
+            <img alt="@goatslacker" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/10632?v=3&amp;s=40" title="goatslacker" width="20" />
+            <img alt="@tomekwi" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/4624660?v=3&amp;s=40" title="tomekwi" width="20" />
         </a>
   </p>
 </li>
@@ -983,9 +979,9 @@
 
       &#8226;
 
-    100 stars today
+    110 stars today
 
-
+    
       &#8226;
         Built by
         <a href="/atom/electron/graphs/contributors">
@@ -998,9 +994,9 @@
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-image-match">
+              <li class="repo-list-item" id="pa-awesome-chrome-devtools">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fascribe%2Fimage-match"
+      <a href="/login?return_to=%2FChromeDevTools%2Fawesome-chrome-devtools"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -1011,38 +1007,38 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/ascribe/image-match">
-      <span class="prefix">ascribe</span>
+    <a href="/ChromeDevTools/awesome-chrome-devtools">
+      <span class="prefix">ChromeDevTools</span>
       <span class="slash">/</span>
-      image-match
+      awesome-chrome-devtools
 </a>  </h3>
 
     <p class="repo-list-description">
-      Quickly search over billions of images
+      Awesome tooling and resources in the Chrome DevTools ecosystem
     </p>
 
   <p class="repo-list-meta">
-    Python
-
-      &#8226;
-
-    90 stars today
+    
 
 
+    112 stars today
+
+    
       &#8226;
         Built by
-        <a href="/ascribe/image-match/graphs/contributors">
-            <img alt="@rhsimplex" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/6517700?v=3&amp;s=40" title="rhsimplex" width="20" />
-            <img alt="@vrde" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/134680?v=3&amp;s=40" title="vrde" width="20" />
-            <img alt="@ttmc" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1210951?v=3&amp;s=40" title="ttmc" width="20" />
-            <img alt="@diminator" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/6178597?v=3&amp;s=40" title="diminator" width="20" />
+        <a href="/ChromeDevTools/awesome-chrome-devtools/graphs/contributors">
+            <img alt="@paulirish" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/39191?v=3&amp;s=40" title="paulirish" width="20" />
+            <img alt="@Garbee" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/868301?v=3&amp;s=40" title="Garbee" width="20" />
+            <img alt="@samccone" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/883126?v=3&amp;s=40" title="samccone" width="20" />
+            <img alt="@arnoldstoba" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/8195352?v=3&amp;s=40" title="arnoldstoba" width="20" />
+            <img alt="@derimagia" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/999489?v=3&amp;s=40" title="derimagia" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-dcw">
+              <li class="repo-list-item" id="pa-tonal">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Frezzza%2Fdcw"
+      <a href="/login?return_to=%2Fdanigb%2Ftonal"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -1053,38 +1049,36 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/rezzza/dcw">
-      <span class="prefix">rezzza</span>
+    <a href="/danigb/tonal">
+      <span class="prefix">danigb</span>
       <span class="slash">/</span>
-      dcw
+      tonal
 </a>  </h3>
 
     <p class="repo-list-description">
-      dcw is docker compose wrapper to simplify everyday dev work with containers
+      Music tonal elements —pitches, chords, scales, keys— in Javascript
     </p>
 
   <p class="repo-list-meta">
-    Shell
+    JavaScript
 
       &#8226;
 
-    88 stars today
+    110 stars today
 
-
+    
       &#8226;
         Built by
-        <a href="/rezzza/dcw/graphs/contributors">
-            <img alt="@shouze" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/54712?v=3&amp;s=40" title="shouze" width="20" />
-            <img alt="@Spy-Seth" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/95120?v=3&amp;s=40" title="Spy-Seth" width="20" />
-            <img alt="@Gnouc" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/4304764?v=3&amp;s=40" title="Gnouc" width="20" />
-            <img alt="@senk" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/710568?v=3&amp;s=40" title="senk" width="20" />
+        <a href="/danigb/tonal/graphs/contributors">
+            <img alt="@danigb" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/7457?v=3&amp;s=40" title="danigb" width="20" />
+            <img alt="@AdrienFromToulouse" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1558229?v=3&amp;s=40" title="AdrienFromToulouse" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-react-howto">
+              <li class="repo-list-item" id="pa-awesome-selfhosted">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fpetehunt%2Freact-howto"
+      <a href="/login?return_to=%2FKickball%2Fawesome-selfhosted"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -1095,38 +1089,124 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/petehunt/react-howto">
-      <span class="prefix">petehunt</span>
+    <a href="/Kickball/awesome-selfhosted">
+      <span class="prefix">Kickball</span>
       <span class="slash">/</span>
-      react-howto
+      awesome-selfhosted
 </a>  </h3>
 
     <p class="repo-list-description">
-      Your guide to the (sometimes overwhelming!) React ecosystem.
+      This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
     </p>
 
   <p class="repo-list-meta">
-
-
-
-    86 stars today
-
+    Makefile
 
       &#8226;
+
+    108 stars today
+
+    
+      &#8226;
         Built by
-        <a href="/petehunt/react-howto/graphs/contributors">
+        <a href="/Kickball/awesome-selfhosted/graphs/contributors">
+            <img alt="@nodiscc" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/3950390?v=3&amp;s=40" title="nodiscc" width="20" />
+            <img alt="@Kickball" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/2252004?v=3&amp;s=40" title="Kickball" width="20" />
+            <img alt="@AndyR207" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/6735115?v=3&amp;s=40" title="AndyR207" width="20" />
+            <img alt="@Kovah" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1816101?v=3&amp;s=40" title="Kovah" width="20" />
+            <img alt="@jungle-boogie" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1111743?v=3&amp;s=40" title="jungle-boogie" width="20" />
+        </a>
+  </p>
+</li>
+
+              <li class="repo-list-item" id="pa-tcpkali">
+  <div class="repo-list-stats">
+      <a href="/login?return_to=%2Fmachinezone%2Ftcpkali"
+    class="btn btn-sm  tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+    Star
+  </a>
+
+
+  </div>
+
+  <h3 class="repo-list-name">
+    <a href="/machinezone/tcpkali">
+      <span class="prefix">machinezone</span>
+      <span class="slash">/</span>
+      tcpkali
+</a>  </h3>
+
+    <p class="repo-list-description">
+      Fast multi-core TCP and WebSockets load generator.
+    </p>
+
+  <p class="repo-list-meta">
+    C
+
+      &#8226;
+
+    101 stars today
+
+    
+      &#8226;
+        Built by
+        <a href="/machinezone/tcpkali/graphs/contributors">
+            <img alt="@vlm" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/145781?v=3&amp;s=40" title="vlm" width="20" />
+            <img alt="@alvelcom" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/628690?v=3&amp;s=40" title="alvelcom" width="20" />
+            <img alt="@bpuzon" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/283370?v=3&amp;s=40" title="bpuzon" width="20" />
+            <img alt="@doubleyou" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/217284?v=3&amp;s=40" title="doubleyou" width="20" />
+        </a>
+  </p>
+</li>
+
+              <li class="repo-list-item" id="pa-react">
+  <div class="repo-list-stats">
+      <a href="/login?return_to=%2Ffacebook%2Freact"
+    class="btn btn-sm  tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+    Star
+  </a>
+
+
+  </div>
+
+  <h3 class="repo-list-name">
+    <a href="/facebook/react">
+      <span class="prefix">facebook</span>
+      <span class="slash">/</span>
+      react
+</a>  </h3>
+
+    <p class="repo-list-description">
+      A declarative, efficient, and flexible JavaScript library for building user interfaces.
+    </p>
+
+  <p class="repo-list-meta">
+    JavaScript
+
+      &#8226;
+
+    92 stars today
+
+    
+      &#8226;
+        Built by
+        <a href="/facebook/react/graphs/contributors">
+            <img alt="@zpao" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/8445?v=3&amp;s=40" title="zpao" width="20" />
+            <img alt="@spicyj" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/6820?v=3&amp;s=40" title="spicyj" width="20" />
+            <img alt="@jimfb" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/9595985?v=3&amp;s=40" title="jimfb" width="20" />
             <img alt="@petehunt" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/239742?v=3&amp;s=40" title="petehunt" width="20" />
-            <img alt="@viatsko" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/376065?v=3&amp;s=40" title="viatsko" width="20" />
-            <img alt="@petehouston" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/9006720?v=3&amp;s=40" title="petehouston" width="20" />
-            <img alt="@Zhangjd" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/5930031?v=3&amp;s=40" title="Zhangjd" width="20" />
-            <img alt="@catirado" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/354151?v=3&amp;s=40" title="catirado" width="20" />
+            <img alt="@sebmarkbage" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/63648?v=3&amp;s=40" title="sebmarkbage" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-duckrails">
+              <li class="repo-list-item" id="pa-awesome">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Firidakos%2Fduckrails"
+      <a href="/login?return_to=%2Fsindresorhus%2Fawesome"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -1137,35 +1217,38 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/iridakos/duckrails">
-      <span class="prefix">iridakos</span>
+    <a href="/sindresorhus/awesome">
+      <span class="prefix">sindresorhus</span>
       <span class="slash">/</span>
-      duckrails
+      awesome
 </a>  </h3>
 
     <p class="repo-list-description">
-      A development tool to quickly &amp; dynamically mock API endpoints
+      A curated list of awesome lists
     </p>
 
   <p class="repo-list-meta">
-    Ruby
-
-      &#8226;
-
-    87 stars today
+    
 
 
+    91 stars today
+
+    
       &#8226;
         Built by
-        <a href="/iridakos/duckrails/graphs/contributors">
-            <img alt="@iridakos" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/9477868?v=3&amp;s=40" title="iridakos" width="20" />
+        <a href="/sindresorhus/awesome/graphs/contributors">
+            <img alt="@sindresorhus" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/170270?v=3&amp;s=40" title="sindresorhus" width="20" />
+            <img alt="@davisonio" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/5341072?v=3&amp;s=40" title="davisonio" width="20" />
+            <img alt="@RichardLitt" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/910753?v=3&amp;s=40" title="RichardLitt" width="20" />
+            <img alt="@aleksandar-todorovic" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/4890548?v=3&amp;s=40" title="aleksandar-todorovic" width="20" />
+            <img alt="@arthurvr" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/6025224?v=3&amp;s=40" title="arthurvr" width="20" />
         </a>
   </p>
 </li>
 
-              <li class="repo-list-item" id="pa-statuspage">
+              <li class="repo-list-item" id="pa-tensorflow">
   <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fpyupio%2Fstatuspage"
+      <a href="/login?return_to=%2Ftensorflow%2Ftensorflow"
     class="btn btn-sm  tooltipped tooltipped-n"
     aria-label="You must be signed in to star a repository" rel="nofollow">
     <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
@@ -1176,111 +1259,32 @@
   </div>
 
   <h3 class="repo-list-name">
-    <a href="/pyupio/statuspage">
-      <span class="prefix">pyupio</span>
+    <a href="/tensorflow/tensorflow">
+      <span class="prefix">tensorflow</span>
       <span class="slash">/</span>
-      statuspage
+      tensorflow
 </a>  </h3>
 
     <p class="repo-list-description">
-      A statuspage generator that lets you host your statuspage for free on Github.
+      Computation using data flow graphs for scalable machine learning
     </p>
 
   <p class="repo-list-meta">
-    Python
+    C++
 
       &#8226;
 
-    82 stars today
+    76 stars today
 
-
-      &#8226;
-        Built by
-        <a href="/pyupio/statuspage/graphs/contributors">
-            <img alt="@jayfk" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/2930472?v=3&amp;s=40" title="jayfk" width="20" />
-            <img alt="@pyup-bot" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/16239342?v=3&amp;s=40" title="pyup-bot" width="20" />
-        </a>
-  </p>
-</li>
-
-              <li class="repo-list-item" id="pa-ktane_voice">
-  <div class="repo-list-stats">
-      <a href="/login?return_to=%2Fdevanhurst%2Fktane_voice"
-    class="btn btn-sm  tooltipped tooltipped-n"
-    aria-label="You must be signed in to star a repository" rel="nofollow">
-    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
-    Star
-  </a>
-
-
-  </div>
-
-  <h3 class="repo-list-name">
-    <a href="/devanhurst/ktane_voice">
-      <span class="prefix">devanhurst</span>
-      <span class="slash">/</span>
-      ktane_voice
-</a>  </h3>
-
-    <p class="repo-list-description">
-      A bomb-defusing robot for people without friends.
-    </p>
-
-  <p class="repo-list-meta">
-    Ruby
-
-      &#8226;
-
-    78 stars today
-
-
+    
       &#8226;
         Built by
-        <a href="/devanhurst/ktane_voice/graphs/contributors">
-            <img alt="@devanhurst" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/4248610?v=3&amp;s=40" title="devanhurst" width="20" />
-        </a>
-  </p>
-</li>
-
-              <li class="repo-list-item" id="pa-che">
-  <div class="repo-list-stats">
-      <a href="/login?return_to=%2Feclipse%2Fche"
-    class="btn btn-sm  tooltipped tooltipped-n"
-    aria-label="You must be signed in to star a repository" rel="nofollow">
-    <svg aria-hidden="true" class="octicon octicon-star" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
-    Star
-  </a>
-
-
-  </div>
-
-  <h3 class="repo-list-name">
-    <a href="/eclipse/che">
-      <span class="prefix">eclipse</span>
-      <span class="slash">/</span>
-      che
-</a>  </h3>
-
-    <p class="repo-list-description">
-      Eclipse Che: Next-generation Eclipse IDE. Open source workspace server and cloud IDE.
-    </p>
-
-  <p class="repo-list-meta">
-    Java
-
-      &#8226;
-
-    74 stars today
-
-
-      &#8226;
-        Built by
-        <a href="/eclipse/che/graphs/contributors">
-            <img alt="@riuvshin" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/1636732?v=3&amp;s=40" title="riuvshin" width="20" />
-            <img alt="@dimasnurenko" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/7605230?v=3&amp;s=40" title="dimasnurenko" width="20" />
-            <img alt="@benoitf" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/436777?v=3&amp;s=40" title="benoitf" width="20" />
-            <img alt="@olexii4" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/6310786?v=3&amp;s=40" title="olexii4" width="20" />
-            <img alt="@garagatyi" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/1851863?v=3&amp;s=40" title="garagatyi" width="20" />
+        <a href="/tensorflow/tensorflow/graphs/contributors">
+            <img alt="@vrv" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/463737?v=3&amp;s=40" title="vrv" width="20" />
+            <img alt="@martinwicke" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/577277?v=3&amp;s=40" title="martinwicke" width="20" />
+            <img alt="@josh11b" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/15258583?v=3&amp;s=40" title="josh11b" width="20" />
+            <img alt="@keveman" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/229914?v=3&amp;s=40" title="keveman" width="20" />
+            <img alt="@girving" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/70511?v=3&amp;s=40" title="girving" width="20" />
         </a>
   </p>
 </li>
@@ -2267,8 +2271,8 @@
 
 <div class="protip protip-callout">
   <strong class="protip">ProTip!</strong>
-  Looking for recently updated  repositories?
-  <a href="/search?q=stars%3A%3E1&amp;s=updated&amp;type=Repositories">Try this search</a>
+  Looking for most starred  repositories?
+  <a href="/search?q=stars%3A%3E1&amp;s=stars&amp;type=Repositories">Try this search</a>
 </div>
 
     </div>
@@ -2296,7 +2300,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" role="img" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.30781s from github-fe149-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.30154s from github-fe123-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -2308,9 +2312,9 @@
 
 
 
-
-
-
+    
+    
+    
 
     <div id="ajax-error-message" class="ajax-error-message flash flash-error">
       <svg aria-hidden="true" class="octicon octicon-alert" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.72 12.5l-6.85-11.98C8.69 0.21 8.36 0.02 8 0.02s-0.69 0.19-0.87 0.5l-6.85 11.98c-0.18 0.31-0.18 0.69 0 1C0.47 13.81 0.8 14 1.15 14h13.7c0.36 0 0.69-0.19 0.86-0.5S15.89 12.81 15.72 12.5zM9 12H7V10h2V12zM9 9H7V5h2V9z"></path></svg>
@@ -2324,10 +2328,10 @@
       <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-7db58f8b7b91111107fac755dd8b178fe7db0f209ced51fc339c446ad3f8da2b.js"></script>
       <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-e677f2022a5d36e8f5ad35d0fcb01f83f1cdb613eda0449f533197693bcc6bda.js"></script>
       <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-49c0de53df0e1f0dfaa632dcbe0daafc2222a8021741cedf015685977e77c100.js"></script>
-
-
-
-
+      
+      
+      
+      
     <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
       <svg aria-hidden="true" class="octicon octicon-alert" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.72 12.5l-6.85-11.98C8.69 0.21 8.36 0.02 8 0.02s-0.69 0.19-0.87 0.5l-6.85 11.98c-0.18 0.31-0.18 0.69 0 1C0.47 13.81 0.8 14 1.15 14h13.7c0.36 0 0.69-0.19 0.86-0.5S15.89 12.81 15.72 12.5zM9 12H7V10h2V12zM9 9H7V5h2V9z"></path></svg>
       <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
