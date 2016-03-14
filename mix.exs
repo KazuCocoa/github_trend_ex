@@ -4,7 +4,7 @@ defmodule GithubTrendEx.Mixfile do
   def project do
     [
       app: :github_trend_ex,
-      version: "0.1.1",
+      version: "0.1.2",
       elixir: "~> 1.0",
       name: "GithubTrendEx",
       source_url: "https://github.com/KazuCocoa/github_trend_ex",
