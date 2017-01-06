@@ -23,7 +23,7 @@ defmodule GithubTrendEx.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.8"},
-      {:floki, "~> 0.8"}
+      {:floki, "~> 0.12.0"}
     ]
   end
 
