@@ -24,7 +24,8 @@ defmodule GithubTrendEx.Mixfile do
     [
       {:httpoison, "~> 0.8"},
       {:hackney, "1.6.3"},
-      {:floki, "~> 0.12.0"}
+      {:floki, "~> 0.12.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 
