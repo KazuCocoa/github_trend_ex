@@ -48,8 +48,13 @@ defmodule GithubTrendEx do
   """
   @spec list(bitstring) :: integer | nil
   def list(html) do
-    names = Floki.find(html, ".repo-list-name a")
-    descriptions = Floki.find(html, "p.repo-list-description")
+    names =
+      html
+      |> Floki.find("ol.repo-list > li > div > h3 > a")
+
+    descriptions =
+      html
+      |> Floki.find("ol.repo-list > li > .py-1 > p")
 
     Enum.zip(names, descriptions)
     |> Enum.reduce([], fn  {{"a", href, _}, {"p", _, nested}}, acc ->
@@ -67,10 +72,13 @@ defmodule GithubTrendEx do
   end
   def get_text_from({"img", attributes, _text}) do
     attributes
-    |> Enum.find(fn {tag, value} ->
+    |> Enum.find(fn {tag, _value} ->
       tag == "title"
     end)
     |> elem(1)
+  end
+  def get_text_from({"g-emoji", _attributes, [text]}) do
+    text
   end
   def get_text_from(text), do: text |> String.strip
 end

@@ -11,24 +11,24 @@ defmodule GithubTrendExTest do
     assert Enum.count(list) == 24
 
     item0 = List.first list
-    assert item0.name == "/Rochester-NRT/AlphaGo"
-    assert item0.url == "https://github.com/Rochester-NRT/AlphaGo"
+    assert item0.name == "/jwasham/google-interview-university"
+    assert item0.url == "https://github.com/jwasham/google-interview-university"
     assert item0.description == String.strip ~s"""
-    A replication of DeepMind's 2016 Nature publication, "Mastering the game of Go with deep neural networks and tree search," details of which can be found on their website.
+    A complete daily plan for studying to become a Google software engineer.
     """
 
     item2 = Enum.at list, 2
-    assert item2.name == "/ryanoasis/nerd-fonts"
-    assert item2.url == "https://github.com/ryanoasis/nerd-fonts"
+    assert item2.name == "/facebookincubator/TextLayoutBuilder"
+    assert item2.url == "https://github.com/facebookincubator/TextLayoutBuilder"
     assert item2.description == String.strip ~s"""
-    :abcd: Collection of over 20 patched fonts (over 2,000 variations) & FontForge font patcher python script for Powerline, Font Awesome, Octicons, Devicons, and Vim Devicons. Includes: Droid Sans, Meslo, Source Code, AnonymousPro, Hack, ProFont, Inconsolata, and many more
+    An Android library that allows you to build text layouts more easily.
     """
 
     item12 = Enum.at list, 12
-    assert item12.name == "/MoOx/statinamic"
-    assert item12.url == "https://github.com/MoOx/statinamic"
+    assert item12.name == "/material-components/material-components-android"
+    assert item12.url == "https://github.com/material-components/material-components-android"
     assert item12.description == String.strip ~s"""
-    :scream: Modern static website generator to create dynamic websites using React components :sparkles:
+    Automagically generate tests from errors
     """
   end
 
@@ -44,6 +44,16 @@ defmodule GithubTrendExTest do
                  "https://assets-cdn.github.com/images/icons/emoji/unicode/2728.png"},
                 {"height", "20"}, {"width", "20"}, {"align", "absmiddle"}], []}
     assert GithubTrendEx.get_text_from(img_tag) == ":sparkles:"
+  end
+
+  test "#get_text_from for g-emoji tag" do
+    emoji_tag = {"g-emoji",
+                 [{"alias", "postbox"},
+                  {"fallback-src", "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4ee.png"},
+                  {"ios-version", "6.0"}],
+                 ["📮"]}
+
+    assert GithubTrendEx.get_text_from(emoji_tag) == "📮"
   end
 
   test "#get_text_from for pure text" do

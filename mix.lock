@@ -1,8 +1,9 @@
-%{"certifi": {:hex, :certifi, "0.3.0"},
-  "floki": {:hex, :floki, "0.8.0"},
-  "hackney": {:hex, :hackney, "1.4.10"},
-  "httpoison": {:hex, :httpoison, "0.8.1"},
-  "idna": {:hex, :idna, "1.1.0"},
-  "mimerl": {:hex, :mimerl, "1.0.2"},
-  "mochiweb_html": {:hex, :mochiweb_html, "2.13.0"},
-  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"}}
+%{"certifi": {:hex, :certifi, "0.3.0", "389d4b126a47895fe96d65fcf8681f4d09eca1153dc2243ed6babad0aac1e763", [:rebar3], []},
+  "floki": {:hex, :floki, "0.12.0", "854496442efd252f8cde8fad9f85ebefdb9e1385255a863eea5fddbe6972cbee", [:mix], [{:mochiweb, "~> 2.15", [hex: :mochiweb, optional: false]}]},
+  "hackney": {:hex, :hackney, "1.4.10", "7da877a7388a8bcc7d71253d4a38103c955333dd470a3af5e47fa1ad8d5e3c23", [:rebar3], [{:certifi, "0.3.0", [hex: :certifi, optional: false]}, {:idna, "1.1.0", [hex: :idna, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:ssl_verify_hostname, "1.0.5", [hex: :ssl_verify_hostname, optional: false]}]},
+  "httpoison": {:hex, :httpoison, "0.8.1", "5b706be2b0af81d1a3870479a2e1b925517c2a64316f70c6cc8aceac9e55f695", [:mix], [{:hackney, "~> 1.4.4", [hex: :hackney, optional: false]}]},
+  "idna": {:hex, :idna, "1.1.0", "b4315c6da1c37dc8ab1df3ed18796ecd5172c4165fb886f43732ce598d145b50", [:rebar3], []},
+  "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], []},
+  "mochiweb": {:hex, :mochiweb, "2.15.0", "e1daac474df07651e5d17cc1e642c4069c7850dc4508d3db7263a0651330aacc", [:rebar3], []},
+  "mochiweb_html": {:hex, :mochiweb_html, "2.13.0", "795b100f757681939e2c52ab042e773af6e5602f04f4e2ea19baea832b541c08", [:rebar3], []},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5", "2e73e068cd6393526f9fa6d399353d7c9477d6886ba005f323b592d389fb47be", [:make], []}}
