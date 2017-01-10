@@ -5,14 +5,14 @@ defmodule GithubTrendEx.Mixfile do
     [
       app: :github_trend_ex,
       version: "0.1.2",
-      elixir: "~> 1.0",
+      elixir: "~> 1.3",
       name: "GithubTrendEx",
       source_url: "https://github.com/KazuCocoa/github_trend_ex",
       description: "Get trend repositories from Github.",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
-      deps: deps,
-      package: package
+      deps: deps(),
+      package: package()
     ]
   end
 
