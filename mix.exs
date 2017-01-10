@@ -5,14 +5,14 @@ defmodule GithubTrendEx.Mixfile do
     [
       app: :github_trend_ex,
       version: "0.1.2",
-      elixir: "~> 1.0",
+      elixir: "~> 1.3",
       name: "GithubTrendEx",
       source_url: "https://github.com/KazuCocoa/github_trend_ex",
       description: "Get trend repositories from Github.",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
-      deps: deps,
-      package: package
+      deps: deps(),
+      package: package()
     ]
   end
 
@@ -23,6 +23,7 @@ defmodule GithubTrendEx.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.8"},
+      {:hackney, "1.6.3"},
       {:floki, "~> 0.12.0"}
     ]
   end
