@@ -54,13 +54,16 @@ defmodule GithubTrendEx do
       %Repo {
         name: find_name(el),
         description: find_desc(el),
-        url: calculate_url(el)
+        url: calculate_url(el),
+        language: find_language(el),
       }
     end)
   end
 
   def find_name(el) do
-    [{"a", [{"href", "/" <> name}], _}] = el |> Floki.find("div > h3 > a")
+    [{"a", [{"href", "/" <> name}], _}] =
+      el
+      |> Floki.find("div > h3 > a")
 
     name
   end
@@ -77,6 +80,16 @@ defmodule GithubTrendEx do
 
   def calculate_url(el) do
     @scheme <> @github_domain <> "/" <> find_name(el)
+  end
+
+  def find_language(el) do
+    case Floki.find(el, "div.f6 > span[itemprop=programmingLanguage]") do
+      [{"span", _, [content]}] ->
+        content |> String.trim()
+      [] ->
+        # there's no language
+        nil
+    end
   end
 
   def get_text_from({"a", _arrtibutes, text}) do

@@ -6,6 +6,7 @@ defmodule GithubTrendEx.Repo do
   defstruct [
     :name,
     :url,
-    :description
+    :description,
+    :language
   ]
 end
