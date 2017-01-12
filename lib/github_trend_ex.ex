@@ -57,7 +57,8 @@ defmodule GithubTrendEx do
         url: calculate_url(el),
         language: find_language(el),
         stars: find_stars(el),
-        forks: find_forks(el)
+        forks: find_forks(el),
+        contributors: find_contributors(el)
       }
     end)
   end
@@ -110,6 +111,11 @@ defmodule GithubTrendEx do
     |> String.trim()
     |> String.replace(",", "")
     |> String.to_integer()
+  end
+
+  def find_contributors(el) do
+    el
+    |> Floki.attribute("div.f6 > a.no-underline img", "title")
   end
 
   def get_text_from({"a", _arrtibutes, text}) do
