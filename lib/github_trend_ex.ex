@@ -56,7 +56,8 @@ defmodule GithubTrendEx do
         description: find_desc(el),
         url: calculate_url(el),
         language: find_language(el),
-        stars: find_stars(el)
+        stars: find_stars(el),
+        forks: find_forks(el)
       }
     end)
   end
@@ -96,6 +97,15 @@ defmodule GithubTrendEx do
   def find_stars(el) do
     el
     |> Floki.find("div.f6 > a[aria-label=Stargazers]")
+    |> Floki.text()
+    |> String.trim()
+    |> String.replace(",", "")
+    |> String.to_integer()
+  end
+
+  def find_forks(el) do
+    el
+    |> Floki.find("div.f6 > a[aria-label=Forks]")
     |> Floki.text()
     |> String.trim()
     |> String.replace(",", "")

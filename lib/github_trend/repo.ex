@@ -8,6 +8,7 @@ defmodule GithubTrendEx.Repo do
     :url,
     :description,
     :language,
-    :stars
+    :stars,
+    :forks
   ]
 end
