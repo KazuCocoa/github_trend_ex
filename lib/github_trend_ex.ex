@@ -56,6 +56,7 @@ defmodule GithubTrendEx do
         description: find_desc(el),
         url: calculate_url(el),
         language: find_language(el),
+        stars: find_stars(el)
       }
     end)
   end
@@ -90,6 +91,15 @@ defmodule GithubTrendEx do
         # there's no language
         nil
     end
+  end
+
+  def find_stars(el) do
+    el
+    |> Floki.find("div.f6 > a[aria-label=Stargazers]")
+    |> Floki.text()
+    |> String.trim()
+    |> String.replace(",", "")
+    |> String.to_integer()
   end
 
   def get_text_from({"a", _arrtibutes, text}) do
