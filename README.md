@@ -30,7 +30,7 @@ iex> GithubTrendEx.trend |> GithubTrendEx.list
 ```
 
 ```elixir
-iex> GithubTrendEx.trend("elixir") |> GithubTrendEx.list
+iex> GithubTrendEx.trend("elixir", "weekly") |> GithubTrendEx.list
 [%{description: "Productive. Reliable. Fast.",
    name: "/phoenixframework/phoenix",
    url: "https://github.com/phoenixframework/phoenix"},
