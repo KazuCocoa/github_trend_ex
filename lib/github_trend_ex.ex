@@ -13,9 +13,9 @@ defmodule GithubTrendEx do
   @doc """
   Get github trending from github.com
   """
-  @spec trend() :: bitstring
-  def trend(lang \\ "") do
-    trending_url = trending_url lang
+  @spec trend(bitstring, bitstring) :: bitstring
+  def trend(lang \\ "", since \\ "daily") do
+    trending_url = trending_url(lang, since)
 
     trending_url
     |> HTTPoison.get!
@@ -28,18 +28,18 @@ defmodule GithubTrendEx do
   Example
 
       iex> GithubTrendEx.trending_url
-      "https://github.com/trending"
+      "https://github.com/trending?since=daily"
 
       iex> GithubTrendEx.trending_url("elixir")
-      "https://github.com/trending/elixir"
+      "https://github.com/trending/elixir?since=daily"
   """
-  @spec trending_url(bitstring) :: bitstring
-  def trending_url(lang \\ "") do
+  @spec trending_url(bitstring, bitstring) :: bitstring
+  def trending_url(lang \\ "", since \\ "daily") do
     case lang do
       s when is_bitstring(s) and byte_size(s) > 0->
-        @scheme <> @github_domain <> @trending_path <> "/" <> s
+        @scheme <> @github_domain <> @trending_path <> "/" <> s <> "?since=#{since}"
       _ ->
-        @scheme <> @github_domain <> @trending_path
+        @scheme <> @github_domain <> @trending_path <> "?since=#{since}"
     end
   end
 
