@@ -16,31 +16,43 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
 ```elixir
 iex> GithubTrendEx.trend |> GithubTrendEx.list
-[%{description: "A replication of DeepMind's 2016 Nature publication, \"Mastering the game of Go with deep neural networks and tree search,\" details of which can be found on their website.",
-   name: "/Rochester-NRT/AlphaGo",
-   url: "https://github.com/Rochester-NRT/AlphaGo"},
- %{description: "Turn your two-bit doodles into fine artworks with deep neural networks! An implementation of Semantic Style Transfer.",
-   name: "/alexjc/neural-doodle",
-   url: "https://github.com/alexjc/neural-doodle"},
- %{description: "Fast multi-core TCP and WebSockets load generator.",
-   name: "/machinezone/tcpkali", url: "https://github.com/machinezone/tcpkali"},
- %{description: "The", name: "/FreeCodeCamp/FreeCodeCamp",
-   url: "https://github.com/FreeCodeCamp/FreeCodeCamp"},
+[%GithubTrendEx.Repo{contributors: ["dularion", "JanneNiemela",
+   "LorenzoGarbanzo", "jsniemela", "DanielNowak1986"],
+  description: "It's like Netflix, but self-hosted! http://dularion.github.io/streama/",
+  forks: 233, language: "JavaScript", name: "dularion/streama", stars: 3911,
+  url: "https://github.com/dularion/streama"},
+ %GithubTrendEx.Repo{contributors: ["ryanmcdermott", "vsemozhetbyt", "acparas",
+   "HemantPawar", "kurtommy"],
+  description: "🛁 Clean Code concepts adapted for JavaScript", forks: 566,
+  language: "JavaScript", name: "ryanmcdermott/clean-code-javascript",
+  stars: 7696, url: "https://github.com/ryanmcdermott/clean-code-javascript"},
+ %GithubTrendEx.Repo{contributors: ["rgmorris", "Eli-Zaretskii", "monnier",
+   "lektu", "eggert"], description: "Rust ❤️ Emacs", forks: 38,
+  language: "Emacs Lisp", name: "Wilfred/remacs", stars: 546,
+  url: "https://github.com/Wilfred/remacs"},
 ...
 ```
 
 ```elixir
 iex> GithubTrendEx.trend("elixir", "weekly") |> GithubTrendEx.list
-[%{description: "Productive. Reliable. Fast.",
-   name: "/phoenixframework/phoenix",
-   url: "https://github.com/phoenixframework/phoenix"},
- %{description: "A job processing system that just verks!",
-   name: "/edgurgel/verk", url: "https://github.com/edgurgel/verk"},
- %{description: "Elixir is a dynamic, functional language designed for building scalable and maintainable applications",
-   name: "/elixir-lang/elixir", url: "https://github.com/elixir-lang/elixir"},
- %{description: "Bringing the power of the command line to chat",
-   name: "/operable/cog", url: "https://github.com/operable/cog"},
- %{description: "A static code analysis tool for the Elixir language with a focus on code consistency and teaching.",
+[%GithubTrendEx.Repo{contributors: ["josevalim", "lexmag", "ericmj", "alco",
+   "eksperimental"],
+  description: "Elixir is a dynamic, functional language designed for building scalable and maintainable applications",
+  forks: 1236, language: "Elixir", name: "elixir-lang/elixir", stars: 9043,
+  url: "https://github.com/elixir-lang/elixir"},
+ %GithubTrendEx.Repo{contributors: ["securingsincity", "slashdotdash"],
+  description: "Feature toggle library for elixir", forks: 1,
+  language: "Elixir", name: "securingsincity/molasses", stars: 32,
+  url: "https://github.com/securingsincity/molasses"},
+ %GithubTrendEx.Repo{contributors: ["chrismccord", "josevalim", "scrogson",
+   "gjaldon", "darkofabijan"], description: "Productive. Reliable. Fast.",
+  forks: 968, language: "Elixir", name: "phoenixframework/phoenix", stars: 8486,
+  url: "https://github.com/phoenixframework/phoenix"},
+ %GithubTrendEx.Repo{contributors: ["josevalim", "ericmj", "michalmuskala",
+   "laurocaetano", "whatyouhide"],
+  description: "A database wrapper and language integrated query for Elixir",
+  forks: 555, language: "Elixir", name: "elixir-ecto/ecto", stars: 2375,
+  url: "https://github.com/elixir-ecto/ecto"},
 ...
 ```
 
