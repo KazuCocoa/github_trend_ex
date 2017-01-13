@@ -54,7 +54,7 @@ defmodule GithubTrendEx do
       %Repo {
         name: find_name(el),
         description: find_desc(el),
-        url: calculate_url(el),
+        url: generate_url(el),
         language: find_language(el),
         stars: find_stars(el),
         forks: find_forks(el),
@@ -81,7 +81,7 @@ defmodule GithubTrendEx do
     end
   end
 
-  def calculate_url(el) do
+  def generate_url(el) do
     @scheme <> @github_domain <> "/" <> find_name(el)
   end
 
