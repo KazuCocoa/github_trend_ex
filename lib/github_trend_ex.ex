@@ -33,6 +33,9 @@ defmodule GithubTrendEx do
 
       iex> GithubTrendEx.trending_url("elixir")
       "https://github.com/trending/elixir?since=daily"
+
+      iex> GithubTrendEx.trending_url("elixir", "weekly")
+      "https://github.com/trending/elixir?since=weekly"
   """
   @spec trending_url(bitstring, bitstring) :: bitstring
   def trending_url(lang \\ "", since \\ "daily") do
@@ -47,7 +50,7 @@ defmodule GithubTrendEx do
   @doc """
   Return Map `%{name: "a name of the trend", url: "a url to github of the trend", description: "description of the trend"}`
   """
-  @spec list(bitstring) :: integer | nil
+  @spec list(bitstring) :: [%Repo{}]
   def list(html) do
     elements = Floki.find(html, "ol.repo-list > li")
     Enum.map(elements, fn(el) ->
@@ -135,3 +138,4 @@ defmodule GithubTrendEx do
   end
   def get_text_from(text), do: text |> String.strip
 end
+
