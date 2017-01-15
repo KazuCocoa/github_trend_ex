@@ -9,7 +9,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
   1. Add current_streak_ex to your list of dependencies in `mix.exs`:
 
         def deps do
-          [{:github_trend_ex, "~> 0.2.0"}]
+          [{:github_trend_ex, "~> 0.2.1"}]
         end
 
 # How to use
