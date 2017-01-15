@@ -5,6 +5,7 @@ defmodule GithubTrendEx do
 
   alias Floki
   alias HTTPoison
+  alias GithubTrendEx.Repo
 
   @scheme "https://"
   @github_domain "github.com"
@@ -48,21 +49,73 @@ defmodule GithubTrendEx do
   """
   @spec list(bitstring) :: integer | nil
   def list(html) do
-    names =
-      html
-      |> Floki.find("ol.repo-list > li > div > h3 > a")
-
-    descriptions =
-      html
-      |> Floki.find("ol.repo-list > li > .py-1 > p")
-
-    Enum.zip(names, descriptions)
-    |> Enum.reduce([], fn  {{"a", href, _}, {"p", _, nested}}, acc ->
-      {_tag, link} = List.first href
-      desc = Enum.map_join nested, " ", &(get_text_from(&1))
-
-      List.flatten [acc | [%{name: link, url: @scheme <> @github_domain <> link, description: desc}]]
+    elements = Floki.find(html, "ol.repo-list > li")
+    Enum.map(elements, fn(el) ->
+      %Repo {
+        name: find_name(el),
+        description: find_desc(el),
+        url: generate_url(el),
+        language: find_language(el),
+        stars: find_stars(el),
+        forks: find_forks(el),
+        contributors: find_contributors(el)
+      }
     end)
+  end
+
+  def find_name(el) do
+    [{"a", [{"href", "/" <> name}], _}] =
+      el
+      |> Floki.find("div > h3 > a")
+
+    name
+  end
+
+  def find_desc(el) do
+    case Floki.find(el, "div.py-1 > p") do
+      [{"p", _, nested}] ->
+        Enum.map_join(nested, " ", &(get_text_from(&1)))
+      [] ->
+        # there's no description
+        nil
+    end
+  end
+
+  def generate_url(el) do
+    @scheme <> @github_domain <> "/" <> find_name(el)
+  end
+
+  def find_language(el) do
+    case Floki.find(el, "div.f6 > span[itemprop=programmingLanguage]") do
+      [{"span", _, [content]}] ->
+        content |> String.trim()
+      [] ->
+        # there's no language
+        nil
+    end
+  end
+
+  def find_stars(el) do
+    el
+    |> Floki.find("div.f6 > a[aria-label=Stargazers]")
+    |> Floki.text()
+    |> String.trim()
+    |> String.replace(",", "")
+    |> String.to_integer()
+  end
+
+  def find_forks(el) do
+    el
+    |> Floki.find("div.f6 > a[aria-label=Forks]")
+    |> Floki.text()
+    |> String.trim()
+    |> String.replace(",", "")
+    |> String.to_integer()
+  end
+
+  def find_contributors(el) do
+    el
+    |> Floki.attribute("div.f6 > a.no-underline img", "title")
   end
 
   def get_text_from({"a", _arrtibutes, text}) do

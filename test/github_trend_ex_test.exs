@@ -3,32 +3,32 @@ defmodule GithubTrendExTest do
   doctest GithubTrendEx
 
   setup do
-    {:ok, [trend: File.read! "test/data/trend_sample"]}
+    {:ok, [trend: File.read! "test/data/trend_sample.html"]}
   end
 
   test "trend items", context do
     list = GithubTrendEx.list context[:trend]
-    assert Enum.count(list) == 24
+    assert Enum.count(list) == 25
 
     item0 = List.first list
-    assert item0.name == "/jwasham/google-interview-university"
+    assert item0.name == "jwasham/google-interview-university"
     assert item0.url == "https://github.com/jwasham/google-interview-university"
     assert item0.description == String.strip ~s"""
     A complete daily plan for studying to become a Google software engineer.
     """
 
     item2 = Enum.at list, 2
-    assert item2.name == "/facebookincubator/TextLayoutBuilder"
+    assert item2.name == "facebookincubator/TextLayoutBuilder"
     assert item2.url == "https://github.com/facebookincubator/TextLayoutBuilder"
     assert item2.description == String.strip ~s"""
     An Android library that allows you to build text layouts more easily.
     """
 
     item12 = Enum.at list, 12
-    assert item12.name == "/material-components/material-components-android"
+    assert item12.name == "material-components/material-components-android"
     assert item12.url == "https://github.com/material-components/material-components-android"
     assert item12.description == String.strip ~s"""
-    Automagically generate tests from errors
+    Modular and customizable Material Design UI components for Android
     """
   end
 
